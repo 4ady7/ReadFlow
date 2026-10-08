@@ -32,6 +32,13 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.example
+
+# generated PDF.js assets
+/public/pdf.worker.min.mjs
+/public/standard_fonts
+/public/cmaps
+/public/wasm
 
 # vercel
 .vercel
